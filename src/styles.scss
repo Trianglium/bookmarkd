@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/.css';
+@import 'variables';
+@import 'theme';
+
+
+html {
+    font-size: 13px;
+    display: block;
+}
+
+body, html {
+    height: 100%;
+}
+
+.nav-highlights {
+    color: #def;
+    margin: 0 0 0 65px;
+    padding-top: 5px;
+}
