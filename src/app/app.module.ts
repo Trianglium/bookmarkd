@@ -20,6 +20,8 @@ import { PostDetailComponent } from './journal/post-detail/post-detail.component
 import { WelcomeComponent } from './core/welcome/welcome.component';
 import { HomeComponent } from './core/home/home.component';
 import { AboutComponent } from './core/about/about.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -43,7 +45,9 @@ import { AboutComponent } from './core/about/about.component';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatIconModule
     
 
   ],

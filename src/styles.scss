@@ -1,7 +1,6 @@
-@import '~@angular/material/prebuilt-themes/.css';
 @import 'variables';
 @import 'theme';
-
+@import "~@angular/material/prebuilt-themes/purple-green.css";
 
 html {
     font-size: 13px;
@@ -17,3 +16,6 @@ body, html {
     margin: 0 0 0 65px;
     padding-top: 5px;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
