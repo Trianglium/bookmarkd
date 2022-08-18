@@ -1,0 +1,12 @@
+
+@mixin zero-margin($pad-up-down, $pad-left-right) {
+    margin: 0px auto;
+    padding: $pad-up-down $pad-left-right;
+}
+
+@mixin site-logo {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Graphik-Regular-Web, sans-serif;
+
+}
