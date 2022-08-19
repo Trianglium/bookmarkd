@@ -3,10 +3,7 @@ export class Author {
 
 };
 export class Book {
-    title: string;
-    author: string;
-    year: string;
-    cover: string;
-    description: string;
-    genre: string;
+    [key: string] {
+
+    }
 };
