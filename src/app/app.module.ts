@@ -22,6 +22,10 @@ import { HomeComponent } from './core/home/home.component';
 import { AboutComponent } from './core/about/about.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
+import { HighlighthtDirective } from './directives/highlightht.directive';
+import { FilterByTimePipe } from './pipes/filter-by-time.pipe';
+import { FilterByNetworkPipe } from './pipes/filter-by-network.pipe';
+import { FilterByPopularPipe } from './pipes/filter-by-popular.pipe';
 
 @NgModule({
   declarations: [
@@ -39,7 +43,11 @@ import { MatIconModule } from '@angular/material/icon';
     PostDetailComponent,
     WelcomeComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    HighlighthtDirective,
+    FilterByTimePipe,
+    FilterByNetworkPipe,
+    FilterByPopularPipe
   ],
   imports: [
     BrowserModule,
