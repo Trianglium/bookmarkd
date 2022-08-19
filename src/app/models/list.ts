@@ -1,4 +1,5 @@
 import { Book } from './book';
+import { Tag } from './tag';
 export class ListEntry {
     book: Book;
     notes: string;
