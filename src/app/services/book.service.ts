@@ -14,7 +14,7 @@ import { openLibrary } from '../shared/apiBaseUrls';
 //https://openlibrary.org/dev/docs/api/books
 export class BookService {
   booksAPI: string = openLibrary + "api/books?bibkeys=";
-  coversAPI: string = openLibrary + "b/$key/$value-$size.jpg";
+  coversAPI: string = openLibrary + "b/";
 
   constructor(
     private http: HttpClient,
@@ -27,7 +27,7 @@ export class BookService {
   }
 
   getBookCover(key: string, value: string, size: string): Observable<BookCover> {
-    return this.http.get<BookCover>(this.booksAPI + `ISBN:${isbn},LCCN:${lccn}&format=json`)
+    return this.http.get<BookCover>(this.coversAPI + `${key}/${value}-${size}.jpg`)
     .pipe(catchError(this.processHTTPMsgService.handleError));
 
   }
