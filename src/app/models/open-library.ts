@@ -4,7 +4,3 @@ export class SearchResult {
    numFoundExact: boolean | any;
    docs: any;
 };
-
-export class BookCover {
-   imageSrc: string;
-};
