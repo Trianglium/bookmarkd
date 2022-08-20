@@ -6,12 +6,6 @@ html {
     font-size: 13px;
 }
 
-.nav-highlights {
-    color: #def;
-    margin: 0 0 0 65px;
-    padding-top: 5px;
-}
-
 html, body { height: 100%; }
 body { 
     margin: 0;
@@ -38,4 +32,14 @@ body {
         font-weight: 400;
         margin-bottom: 1em;
     }
+}
+
+.nav-highlights {
+    color: #def;
+    margin: 0 0 0 65px;
+    padding-top: 5px;
+}
+
+.highlight {
+    background-color: #def;
 }
