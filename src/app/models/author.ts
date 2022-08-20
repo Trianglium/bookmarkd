@@ -1,4 +1,4 @@
-export class Author {
+export class AuthorProfile {
     wikipedia: string;
     source_records: any;
     photos: any;
@@ -19,7 +19,11 @@ export class Author {
     last_modified: any;
 };
 
+export class Author {
+    key?: string | null;
+    name: string;
 
+};
 
 export class AuthorWorks {
     links: any;
