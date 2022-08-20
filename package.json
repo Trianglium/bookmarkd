@@ -23,12 +23,15 @@
     "font-awesome": "^4.7.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.11.4"
+    "zone.js": "~0.11.4",
+    "@ngx-formly/core": "^6.0.0-rc",
+    "@ngx-formly/material": "^6.0.0-rc"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~13.3.0",
     "@angular/cli": "~13.3.0",
     "@angular/compiler-cli": "~13.3.0",
+    "@ngx-formly/schematics": "^6.0.0-rc.2",
     "@types/jasmine": "~3.10.0",
     "@types/node": "^12.11.1",
     "angular-cli-ghpages": "^1.0.3",

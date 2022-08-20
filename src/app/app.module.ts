@@ -26,6 +26,8 @@ import { HighlighthtDirective } from './directives/highlightht.directive';
 import { FilterByTimePipe } from './pipes/filter-by-time.pipe';
 import { FilterByNetworkPipe } from './pipes/filter-by-network.pipe';
 import { FilterByPopularPipe } from './pipes/filter-by-popular.pipe';
+import { FormlyModule } from '@ngx-formly/core';
+import { FormlyMaterialModule } from '@ngx-formly/material';
 
 @NgModule({
   declarations: [
@@ -55,7 +57,9 @@ import { FilterByPopularPipe } from './pipes/filter-by-popular.pipe';
     ReactiveFormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    FormlyModule.forRoot(),
+    FormlyMaterialModule
     
 
   ],
