@@ -4,8 +4,8 @@ import { Observable, of } from 'rxjs';
 import { delay, map, catchError } from 'rxjs/operators';
 
 import { ProcessHttpmsgService } from './process-httpmsg.service';
-import { BookCover } from '../models/open-library';
-import { Book } from '../models/book';
+import { Book, BookCover } from '../models/book';
+
 import { openLibrary } from '../shared/apiBaseUrls';
 
 @Injectable({
